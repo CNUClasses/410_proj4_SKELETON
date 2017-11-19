@@ -4,8 +4,8 @@
 //used to make PRINT statements work properly
 extern std::mutex printMutex;
 
-//if following symbol defined PRINTs will work
-//otherwise compiler optimizes to nothing
+//if following symbol defined couts are synchronized 
+//otherwise they are not
 #ifndef SYNCHRONIZED_PRINT
 #define SYNCHRONIZED_PRINT
 #endif
