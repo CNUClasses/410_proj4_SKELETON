@@ -1,5 +1,6 @@
 #pragma once
 #include <mutex>
+#include <iostream>
 
 //used to make PRINT statements work properly
 extern std::mutex printMutex;

@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <string>
 
 //default files
 const std::string	DEFAULT_ORDER_IN_FILE = "orders_in.txt";
