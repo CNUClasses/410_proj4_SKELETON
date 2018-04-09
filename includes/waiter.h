@@ -21,7 +21,7 @@ public:
 	//gets next Order from file_IO
 	//if return == SUCCESS then anOrder
 	//contains new order
-	//otherwise return contains error 
+	//otherwise return contains fileIO error 
 	int getNext(ORDER &anOrder);
 
 	//contains a loop that will get orders from filename one at a time 
